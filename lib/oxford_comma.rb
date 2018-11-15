@@ -1,9 +1,9 @@
 def oxford_comma(array)
 if array.lenght = 1
-array.join (" , ")
+array.join
 elsif array.lenght = 2
-array.join (" and ") 
+array.join(" and ")
 else
-array.join (" , ") << array.join (" and ") 
+array.join << ("and")
 end
 end
